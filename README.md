@@ -5,6 +5,8 @@ A TI calculator emulator for BB10 devices. It supports TI82, TI83, TI83+, TI85, 
 
 The default location for ROMs is misc/TI/ROM but that can be changed in the application.
 
+The installer can be downloaded from https://sourceforge.net/projects/almosttibb10/.
+
 AlmostTI
 ========
 
