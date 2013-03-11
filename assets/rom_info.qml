@@ -1,13 +1,12 @@
 import bb.cascades 1.0
 
 Page {
+    titleBar: TitleBar {
+        title: "ROM Info"
+    }
     Container {
         layout: StackLayout {
             orientation: LayoutOrientation.TopToBottom
-        }
-        Header {
-            title: "ROM Info"
-            bottomMargin: 20.0
         }
         Container {
             layout: DockLayout {

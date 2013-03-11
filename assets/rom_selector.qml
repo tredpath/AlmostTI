@@ -6,9 +6,6 @@ Page {
             id: foldersheet
             content: Page {
                 Container {
-	                Header {
-	                    title: "Select a Folder"
-	                }
 	                Label {
 	                    id: folderLabel
 	                    text: ""
@@ -151,4 +148,7 @@ Page {
             }
         }
     ]
+    titleBar: TitleBar {
+        title: "Select a Folder"
+    }
 }

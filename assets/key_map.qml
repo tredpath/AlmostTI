@@ -1,12 +1,12 @@
 import bb.cascades 1.0
 
 Page {
+    titleBar: TitleBar {
+        title: "Key Mapping"
+    }
     ScrollView {
 	    Container {
 	        layout: StackLayout {
-	        }
-	        Header {
-	            title: "Key Mapping"
 	        }
 	        Container {
 	            layout: DockLayout {

@@ -2,9 +2,6 @@ import bb.cascades 1.0
 
 Page {
     Container {
-        Header {
-            title: "App Info"
-        }
         Label {
             text: "Almost TI"
             textStyle.fontWeight: FontWeight.Bold
@@ -45,4 +42,7 @@ Page {
             }
         }
     ]
+    titleBar: TitleBar {
+        title: "App Info"
+    }
 }
